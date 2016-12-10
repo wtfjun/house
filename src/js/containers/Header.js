@@ -15,12 +15,14 @@ export default class Header extends Component {
   componentDidMount() {
     $('.mb-btn').click(function(event) {
       /* Act on the event */
+      $('.mb-nav').css('height', '100%');
       $('.mb-nav ul').addClass('active')
       $(this).hide()
       $('.close-mb-nav').show()
     });
     $('.close-mb-nav').click(function(event) {
       /* Act on the event */
+       $('.mb-nav').css('height', '50px');
       $('.mb-nav ul').removeClass('active')
       $(this).hide()
       $('.mb-btn').show()
