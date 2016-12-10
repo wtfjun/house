@@ -25,7 +25,10 @@ export default class Header extends Component {
       $('.mb-nav ul').removeClass('active')
       $(this).hide()
       $('.mb-btn').show()
-      $('.mb-nav').css('height', '50px');
+      var t = setTimeout(function() {
+        $('.mb-nav').css('height', '50px');
+      }, 400)
+     
     });
   }
   render() {
