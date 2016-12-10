@@ -22,10 +22,10 @@ export default class Header extends Component {
     });
     $('.close-mb-nav').click(function(event) {
       /* Act on the event */
-       $('.mb-nav').css('height', '50px');
       $('.mb-nav ul').removeClass('active')
       $(this).hide()
       $('.mb-btn').show()
+      $('.mb-nav').css('height', '50px');
     });
   }
   render() {
