@@ -29,6 +29,7 @@ export default class Header extends Component {
         $('.mb-nav').css('height', '50px');
       }, 400)
      
+     
     });
   }
   render() {
