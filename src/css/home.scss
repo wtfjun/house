@@ -1,0 +1,70 @@
+.home {
+	padding: 0;
+	padding-top: 130px;
+	z-index: 1000;
+	padding-bottom: 500px;
+	@media screen and (max-width: 768px) {
+		& {
+			#fullpage {
+				margin-top: -100px;
+			}
+		}
+	}
+	.section {
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+
+		.text {
+			color: #fff;
+			position: absolute;
+			top: 45%;
+			left: 50%;
+			transform: translate3d(-50%, -50%, 0);
+    	-webkit-transform: translate3d(-50%, -50%, 0);
+    	font-size: 50px;
+    	@media screen and (max-width: 768px) {
+    		& {
+					font-size: 24px;
+    		}
+    	}
+		}
+		img {
+			width: 100%;
+			// height: 100%;
+			margin-top: 0px;
+		}
+		@media screen and (max-width: 980px){
+			& {
+				padding-top: -50px;
+				img {
+					display: none;;
+				}
+				
+			}
+			&:nth-child(1) {
+				background: url(https://www.houseofhackney.com/media/wysiwyg/HP_Template_Mobile__02_3.jpg);
+				background-size: 100%;
+				background-repeat:no-repeat;
+			}
+			&:nth-child(2) {
+				background: url(https://www.houseofhackney.com/media/wysiwyg/021216_MOBILE_02.jpg);
+				background-size: 100%;
+				background-repeat:no-repeat;
+			}
+			&:nth-child(3) {
+				background: url(https://www.houseofhackney.com/media/wysiwyg/021216_MOBILE_03.jpg);
+				background-size: 100%;
+				background-repeat:no-repeat;
+			}
+			&:nth-child(4) {
+				background: url(https://www.houseofhackney.com/media/wysiwyg/021216_MOBILE_03.jpg);
+				background-size: 100%;
+				background-repeat:no-repeat;
+			}
+		}
+		&:nth-child(5) {
+			height: 50px;
+		}
+	}
+}
