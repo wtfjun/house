@@ -17,7 +17,11 @@
 
   <script>
     $('#fullpage').fullpage({
-      css3: true
+      anchors: ['firstPage', 'secondPage', '3rdPage'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['First page', 'Second page', 'Third and last page']
+
     });
   </script>
 </body>
