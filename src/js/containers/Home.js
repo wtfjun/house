@@ -10,19 +10,15 @@ export default class Home extends Component {
 			<div className="home">
 				<div id="fullpage">
 			    <div className="section">
-			    	<div className="text">ORIGINAL OBJETS</div>
 			    	<img src='https://www.houseofhackney.com/media/wysiwyg/HP_ALL_Desktop_.jpg' />
 			    </div>
 			    <div className="section">
-			    	<div className="text">ORIGINAL OBJETS</div>
 			    	<img src='https://www.houseofhackney.com/media/wysiwyg/021216_DESKTOP_02.jpg' />
 			    </div>
 			    <div className="section">
-			    	<div className="text">ORIGINAL OBJETS</div>
 			    	<img src='https://www.houseofhackney.com/media/wysiwyg/021216_DESKTOP_03.jpg' />
 			    </div>
 			    <div className="section">
-			    	<div className="text">ORIGINAL OBJETS</div>
 			    	<img src='https://www.houseofhackney.com/media/wysiwyg/HP_ALL_Desktop_.jpg' />
 			    </div>
 				</div>
