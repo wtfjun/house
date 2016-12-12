@@ -28,8 +28,13 @@ export default class Header extends Component {
       var t = setTimeout(function() {
         $('.mb-nav').css('height', '50px');
       }, 400)
-     
-     
+    });
+    $('.pc-nav .bootstrap-nav >li:nth-child(2)').hover(function() {
+      /* Stuff to do when the mouse enters the element */
+      $('.sub-menu-bg').show(0)
+    }, function() {
+      /* Stuff to do when the mouse leaves the element */
+      $('.sub-menu-bg').hide(0)
     });
   }
   render() {
@@ -38,7 +43,9 @@ export default class Header extends Component {
       <div className="mb-nav">
         <ul>
           <li role="presentation"><Link to="/subpage/cyprus">主页</Link></li>
-          <li role="presentation"><Link to="/properties">关于产品</Link></li>
+          <li role="presentation">
+            <Link to="/properties">关于产品</Link>
+          </li>
           <li role="presentation"><Link to="/subpage/Buying Process">门店</Link></li>
           <li role="presentation"><Link to="/subpage/financing">联系我们</Link></li>
           <li role="presentation"><Link to="/subpage/PERMANENT RESIDENCY">关于我们</Link></li>
@@ -54,13 +61,23 @@ export default class Header extends Component {
           <Navbar.Collapse>
             <Nav className="bootstrap-nav">
               <li role="presentation"><Link to="/subpage/cyprus">主页</Link></li>
-              <li role="presentation"><Link to="/properties">关于产品</Link></li>
+              <li role="presentation"><Link to="/properties">关于产品</Link>
+                <ul className="pc-sub-menu">
+                  <li><Link to="/">中式纹样</Link></li>
+                  <li><Link to="/">美式复古</Link></li>
+                  <li><Link to="/">加德满都手工</Link></li>
+                  <li><Link to="/">扎染</Link></li>
+                  <li><Link to="/">西装内里</Link></li>
+                  <li><Link to="/">ALL</Link></li>
+                </ul>
+              </li>
               <li role="presentation"><Link to="/subpage/Buying Process">门店</Link></li>
               <li role="presentation"><Link to="/subpage/financing">联系我们</Link></li>
               <li role="presentation"><Link to="/subpage/PERMANENT RESIDENCY">关于我们</Link></li>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        <div className="sub-menu-bg"></div>
       </header>
       </div>
     );
