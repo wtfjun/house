@@ -1,25 +1,41 @@
 import React, { Component } from 'react';
 
-import FU1 from '../../img/FU1.png'
-import FU2 from '../../img/FU2.png'
-import FU3 from '../../img/FU3.png'
-import FU4 from '../../img/FU4.png'
+import FU1 from '../../img/HP_ALL_Desktop_1.jpg'
+import FU2 from '../../img/HP_ALL_Desktop_2.jpg'
+import FU3 from '../../img/HP_ALL_Desktop_3.jpg'
 export default class Home extends Component {
   render() {
     return (
 			<div className="home">
 				<div id="fullpage">
 			    <div className="section">
-			    	<img src='https://www.houseofhackney.com/media/wysiwyg/HP_ALL_Desktop_.jpg' />
+			    	<h1 className="text">
+			    		FABRIC UNION <br />
+			    		<small>apple vita C</small>
+			    	</h1>
+
+			    	<img src={FU3} />
 			    </div>
 			    <div className="section">
-			    	<img src='https://www.houseofhackney.com/media/wysiwyg/021216_DESKTOP_02.jpg' />
+			    	<h1 className="text">
+			    		FABRIC UNION <br />
+			    		<small>apple vita C</small>
+			    	</h1>
+			    	<img src={FU1} />
 			    </div>
 			    <div className="section">
-			    	<img src='https://www.houseofhackney.com/media/wysiwyg/021216_DESKTOP_03.jpg' />
+			    	<h1 className="text">
+			    		FABRIC UNION <br />
+			    		<small>apple vita C</small>
+			    	</h1>
+			    	<img src={FU2} />
 			    </div>
 			    <div className="section">
-			    	<img src='https://www.houseofhackney.com/media/wysiwyg/HP_ALL_Desktop_.jpg' />
+			    	<h1 className="text">
+			    		FABRIC UNION <br />
+			    		<small>apple vita C</small>
+			    	</h1>
+			    	<img src={FU3} />
 			    </div>
 			    <div className="footer section fp-auto-height">
 			    		SUBSCRIBE TO OUR NEWSLETTER
