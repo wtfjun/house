@@ -105,29 +105,28 @@ function getPlugins() {
 
   if (isDev()) {
     plugins.push(
-      new OpenBrowserPlugin({ url: 'http://localhost:8080/' })
+      new OpenBrowserPlugin({ url: 'http://127.0.0.1:8080/' })
     );
   }
 
-  if (isProd()) {
-    plugins.push(
-      new webpack.optimize.UglifyJsPlugin({
-        minimize: true,
-        output: {
-          comments: false,
-        },
-        compress: {
-          warnings: false
-        }
-      }),
-      new HtmlWebpackPlugin({
-        title: 'cobish - 写给未来的自己',
-        filename: '../index.html',
-        template: './src/html/index.html'
-      }),
-      new WebpackMd5Hash()
-    );
-  }
+  // if (isProd()) {
+  //   plugins.push(
+  //     new webpack.optimize.UglifyJsPlugin({
+  //       minimize: true,
+  //       output: {
+  //         comments: false,
+  //       },
+  //       compress: {
+  //         warnings: false
+  //       }
+  //     }),
+  //     new HtmlWebpackPlugin({
+  //       title: 'cobish - 写给未来的自己',
+  //       filename: '../../views/index.html',
+  //       template: './src/html/index_dev.html'
+  //     new WebpackMd5Hash()
+  //   );
+  // }
 
   return plugins
 }

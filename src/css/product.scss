@@ -1,0 +1,248 @@
+.product {
+	background: #ebebeb;
+	.pro-header {
+		background: url(../img/pro-top.jpg) no-repeat;
+		width: 100%;
+		padding-top: 530px;
+	}
+	.pro-cont {
+		margin-top: 24px;
+		padding-bottom: 24px;
+		.col-md-3, .col-sm-3 {
+			@media screen and (min-width: 768px){
+				width: 29%;
+			}
+			
+		}
+	}
+	.pro {
+		font-family: "ITC Caslon_224 W01 Book1551458",Georgia,serif;
+		color: #000;
+		height: 200px;
+		position: relative;
+		img {
+			width: 100%;
+		}
+	}
+	.pro1 {
+		height: 458px;
+		padding-top: 80px;
+		background: url(../img/PUMAxHOH-BASKET.jpg);
+		background-size: 100%;
+		.text {
+			width: 70%;
+			height: 150px;
+			margin: 0 auto;
+			background: #fff;
+			opacity: .5;
+			padding-top: 30px;
+			text-align: center;
+			.pre-heading {
+				font-family: "ITC Caslon_224 W01 Book Italic",Georgia,serif;
+				color: #000;
+				font-weight: 100;
+			}
+			span {
+				font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
+		    letter-spacing: 3px;
+		    color: #000;
+		    font-size: 19px!important;
+			}
+			p {
+				font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
+				font-size: 11px!important;
+				margin-top: 10px;
+				color: #000;
+			}
+			h4 {
+				color: #fff;
+			}
+		}
+		@media screen and (max-width: 992px) {
+			height: 283px;
+			padding-top: 35px;
+			.text {
+				height: 100px;
+			}
+		}
+	}
+	.pro2 {
+		height: 350px;
+		background: url(../img/Eastpak-House-of-Hackney-2015-Collaboration-001.jpg);
+		background-size: 100%;
+		.text {
+			position: absolute;
+			padding-left: 14px;
+			bottom: 50px;
+			width: 100%;
+			height: 50px;
+			color: #fff;
+			.pre-heading {
+				font-family: "ITC Caslon_224 W01 Book Italic",Georgia,serif;
+				font-weight: 100;
+			}
+			span {
+				font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
+		    letter-spacing: 3px;
+		    font-size: 19px!important;
+			}
+			p {
+				font-family: "Avenir LT W01_85 Heavy1475544", sans-serif;
+				font-size: 11px!important;
+				margin-top: 10px;
+			}
+		}
+		@media screen and (max-width: 992px) {
+			height: 233px;
+		}
+		@media screen and (max-width: 768px) {
+			margin-top: 24px;
+		}
+	}
+	.pro3 {
+		height: 350px;
+		border: 1px solid #ccc;
+		background: #fff;
+		.top {
+			font-weight: 400;
+			text-align: center;
+			font-size: 16px;
+			color: #000;
+			line-height: 34px;
+		}
+		.pro-con {
+			width: 50%;
+			margin: 0 auto;
+			height: 240px;
+			@media screen and (max-width: 992px) {
+				height: 150px;
+			}
+			.img {
+				width: 100%;
+				height: 200px;
+
+				overflow: hidden;
+			} 
+			span {
+				margin-top: 20px;
+				display: block;
+				text-align: center;
+			}
+		}
+
+		.bottom1 {
+			position: absolute;
+			bottom: 28px;
+			width: 100%;
+			text-align: center;
+			border-top: 1px solid #ccc;
+			line-height: 28px;
+		}
+		.bottom2 {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+			border-top: 1px solid #ccc;
+			line-height: 28px;
+		}
+		@media screen and (max-width: 992px) {
+			height: 233px;
+		}
+	}
+	.pro4 {
+		height: 244px;
+		margin-top: 24px;
+		.img-cont {
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			width: 60%;
+			background: url(../img/16a0dcb7df3346fd2e0ae23aa5c0d21f.jpg);
+			background-size: 100%;
+		}
+		.text {
+			padding-top: 50px;
+			padding-left: 20px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			height: 100%;
+			width: 40%;
+			background: #fff;
+		}
+		@media screen and (max-width: 992px) {
+			height: 170px;
+		}
+	}
+	.pro5 {
+		height: 350px;
+		margin-top: 24px;
+		background: url(../img/29-05-2015_pumaxhouseofhackney_r698rose_totaleclipse_jm_1.jpg);
+		background-size: 100%;
+		@media screen and (max-width: 992px) {
+			height: 220px;
+		}
+	}
+	.pro6 {
+		height: 350px;
+		margin-top: 24px;
+
+		
+		.img-cont {
+			position: absolute;
+			background: url(../img/House-of-Hackney-Puma-Boris-Becker-Palm-1.jpg);
+			background-size: 100%;
+			left: 0;
+			top: 0;
+			height: 60%;
+			width: 100%;
+		}
+		.text {
+			position: absolute;
+			padding: 20px;
+			right: 0;
+			top: 60%;
+			height: 40%;
+			width: 100%;
+			background: #fff;
+		}
+		@media screen and (max-width: 992px) {
+			height: 220px;
+		}
+	}
+	.more-btn {
+		padding: 3px 23px;
+		margin-top: 24px;
+		margin-right: 4px;
+		border: 1px solid #44594E;
+		background: none;
+	}
+	.pro-bottom {
+		width: 100%;
+		min-width: 1200px;
+		height: 300px;
+		margin-top: 24px;
+		background: #fff;
+		.img-cont {
+			width: 14%;
+			margin-right: 2px;
+			height: 100%;
+			float: left;
+			position: relative;
+			img {
+				width: 100%;
+			}
+			.text {
+				position: absolute;
+				background: #fff;
+				width: 100%;
+				height: 80px;
+				bottom: 0px;
+				color: #000;
+				text-align: center;
+			}
+		}
+	}
+}

@@ -60,8 +60,8 @@ export default class Header extends Component {
         <Navbar collapseOnSelect className="pc-nav">
           <Navbar.Collapse>
             <Nav className="bootstrap-nav">
-              <li role="presentation"><Link to="/subpage/cyprus">主页</Link></li>
-              <li role="presentation"><Link to="/properties">关于产品</Link>
+              <li role="presentation"><a href="/">主页</a></li>
+              <li role="presentation"><Link to="/product">关于产品</Link>
                 <ul className="pc-sub-menu">
                   <li><Link to="/">中式纹样</Link></li>
                   <li><Link to="/">美式复古</Link></li>
