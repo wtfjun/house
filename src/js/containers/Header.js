@@ -46,7 +46,7 @@ export default class Header extends Component {
           <li role="presentation">
             <Link to="/properties">关于产品</Link>
           </li>
-          <li role="presentation"><Link to="/subpage/Buying Process">门店</Link></li>
+          <li role="presentation"><Link to="/mendian">门店</Link></li>
           <li role="presentation"><Link to="/subpage/financing">联系我们</Link></li>
           <li role="presentation"><Link to="/subpage/PERMANENT RESIDENCY">关于我们</Link></li>
         </ul>
@@ -71,7 +71,7 @@ export default class Header extends Component {
                   <li><Link to="/">ALL</Link></li>
                 </ul>
               </li>
-              <li role="presentation"><Link to="/subpage/Buying Process">门店</Link></li>
+              <li role="presentation"><Link to="/mendian">门店</Link></li>
               <li role="presentation"><Link to="/subpage/financing">联系我们</Link></li>
               <li role="presentation"><Link to="/subpage/PERMANENT RESIDENCY">关于我们</Link></li>
             </Nav>
